@@ -11,10 +11,10 @@ import java.util.HashSet;
  *
  * @author fabia
  */
-public class Manage {
+public class ListaUser {
         private HashSet<User> usuario;
-        public Manage() {
-        usuario = new HashSet<>();
+    public ListaUser() {
+      usuario = new HashSet<>();
     }
 
     public HashSet<User> ListarUser() {
