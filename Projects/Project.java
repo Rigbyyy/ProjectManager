@@ -4,6 +4,7 @@
  */
 package Projects;
 
+import Tasks.Task;
 import java.util.HashSet;
 
 /**
@@ -24,11 +25,11 @@ public class Project {
     }
 
     public HashSet<Task> getTask() {
-        return task;
+        return tasks;
     }
     
       public void AddTask(Task tasks){
-        this.task.add(tasks);
+        this.tasks.add(tasks);
         
     }
 
